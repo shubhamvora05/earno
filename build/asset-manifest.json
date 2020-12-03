@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/static/js/main.adf07a8b.chunk.js",
+    "main.js.map": "/static/js/main.adf07a8b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e5620238.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e5620238.js.map",
+    "static/js/2.b542c80c.chunk.js": "/static/js/2.b542c80c.chunk.js",
+    "static/js/2.b542c80c.chunk.js.map": "/static/js/2.b542c80c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2a1af85b6512a9af856717286827f984.js": "/precache-manifest.2a1af85b6512a9af856717286827f984.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.b542c80c.chunk.js.LICENSE.txt": "/static/js/2.b542c80c.chunk.js.LICENSE.txt",
+    "static/media/about us main image mobile.jpg": "/static/media/about us main image mobile.34e26356.jpg",
+    "static/media/about us main image.jpg": "/static/media/about us main image.e4ffc6d8.jpg",
+    "static/media/contact us.png": "/static/media/contact us.5f5f1776.png",
+    "static/media/opportunites image.jpg": "/static/media/opportunites image.b22a9cb9.jpg",
+    "static/media/our mission image.jpg": "/static/media/our mission image.a4c112b9.jpg",
+    "static/media/our vision image.jpg": "/static/media/our vision image.49682f11.jpg",
+    "static/media/referrals-icon-15.jpg": "/static/media/referrals-icon-15.d395eb7a.jpg",
+    "static/media/small investment icon.svg": "/static/media/small investment icon.ee026f52.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5620238.js",
+    "static/js/2.b542c80c.chunk.js",
+    "static/js/main.adf07a8b.chunk.js"
+  ]
+}

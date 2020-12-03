@@ -1,0 +1,554 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.6rem Helvetica;
+  margin: 0;
+  padding: 0;
+  position: relative;
+background-color:#84a9ac;
+}
+
+/* navbar */
+.navbar{
+  background-color:#204051;
+  height:20px;
+  padding: 0;
+  margin: 0;
+}
+/* below navbar */
+.nav-below {
+  width: 100%;
+  background:#204051;
+  display: inline-block;
+ margin-top: 80px;
+  text-align: center;
+  position: relative;
+  -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+
+}
+
+.nav-blw-content {
+  margin: 10px 8%;
+}
+
+.nav-below .nav-blw-content ul {
+  margin-top: 10px;
+}
+
+.nav-below .nav-blw-content ul li {
+  list-style: none;
+  display: inline-block;
+  justify-content: space-between;
+  margin: 30px 40px;
+}
+
+.nav-span {
+  font-size: 72px;
+  color: white;
+}
+
+.nav-below .nav-blw-content ul li span a {
+  font-size: 2rem;
+  margin-left: 24px;
+  line-height: 40px;
+  color: white;
+  text-decoration: none;
+}
+.nav-below .nav-blw-content ul li span a:hover {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.icon-img {
+  height: 206px;
+  width: 206px;
+  border-radius: 50%;
+  background: white;
+  opacity: 70%;
+  text-align: center;
+}
+
+.icon-img img {
+  height: 168px;
+  width: 156px;
+  border-radius: 108px;
+  margin-left: -76px;
+  margin-top: 22px;
+  position: absolute;
+}
+
+
+/* footer bar */
+footer{
+
+}
+.ftr-bar{
+background-color:#3b6978;
+  width: 100%;
+}
+.ftr-bar .In-ftr{
+text-align: center;
+}
+
+.ftr-bar .In-ftr ul {
+  list-style: none;
+}
+
+.ftr-bar .In-ftr ul li{
+justify-content: space-between;
+margin: 15px 0;
+padding:  0 50px;
+vertical-align:text-top;
+  display: inline-block;
+  line-height: 3rem;
+
+}
+.ftr-bar .In-ftr ul li span h3{
+  font-weight: 400;
+  color: black;
+}
+.ftr-li{
+  text-align: left;
+}
+.ftr-bar .In-ftr ul li span a{
+  display: block;
+    text-decoration: none;
+  color: #DDDDDD;
+}
+.ftr-bar .In-ftr ul li span a:hover{
+  color: orange;
+  text-decoration: none;
+  background-color: inherit;
+}
+/* -------------------------------------------------------------------------------- */
+/* for tablet size */
+@media (max-width: 1024px) {
+
+  /* below navbar */
+  .nav-below{
+    margin-top: 0px;
+  }
+  .nav-span {
+    font-size: 36px;
+    color: white;
+  }
+
+  /* footer bar */
+
+  .ftr-bar .In-ftr ul li{
+  padding:  0 60px;
+    line-height: 3rem;
+  }
+}
+
+
+/* ------------------------------------------------------------------------------------------ */
+/* for mobile size */
+@media (max-width: 640px) {
+
+
+  /* below navbar */
+  .nav-span {
+    font-size: 20px;
+  }
+
+  .nav-below .nav-blw-content ul li {
+    margin: 17px 0;
+  }
+
+  .nav-below .nav-blw-content ul {
+    margin-left: -47px;
+  }
+
+  /* footer bar */
+
+  .ftr-bar .In-ftr ul li{
+  padding:  0 50px;
+    line-height: 3rem;
+  }
+  .ftr-bar .In-ftr{
+    text-align: left;
+  }
+}
+
+/* ---------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------ */
+
+/* About us page */
+.Main-img{
+  height:600px;
+  width: 100%;
+  margin-top: 70px;
+}
+.About-content{
+  width: 74%;
+  margin: 10px auto;
+  padding: 10px 40px;
+}
+.About-head{
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 11px;
+  text-align: center;
+padding-top: 15px;
+}
+.cnt-spn{
+  display: block;
+  font-size: 36px;
+  font-weight: 400;
+  padding: 20px 0;
+}
+.cnt-par{
+  font-size: 18px;
+  padding: 1px 0;
+}
+.cnt-div{
+  padding: 5px 0;
+  text-align: center;
+
+}
+.content-img1{
+  width: 375.3px;
+height: 250px;
+border-radius: 208.5px;
+}
+.content-img2{
+  width: 347.3px;
+height: 250px;
+border-radius: 356.5px;
+}
+.content-img3{
+  width: 374.3px;
+height: 250px;
+border-radius: 236px;
+}
+/* ---------------------------------------------------------------------------------- */
+
+@media (max-width: 1024px) {
+.Main-img{
+  margin-top: 0;
+}
+
+  .About-content{
+    padding: 10px 0;
+    width: 100%;
+  }
+  .cnt-par{
+      padding: 1px 10px;
+  }
+}
+
+/* ---------------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+  .About-head{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 10px;
+    text-align: center;
+  padding-top: 12px;
+  }
+  .cnt-spn{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 0;
+  }
+  .cnt-par{
+    font-size: 14px;
+
+  }
+  .cnt-div{
+    padding: 5px 0;
+    text-align: center;
+  }
+  .content-img1{
+    width: 200px;
+  height: 133px;
+  border-radius: 208.5px;
+  }
+  .content-img2{
+    width: 200px;
+  height: 133px;
+  border-radius: 356.5px;
+  }
+  .content-img3{
+    width: 200px;
+  height: 144px;
+  border-radius: 236px;
+  }
+}
+
+/* ---------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------ */
+
+/* contact us page */
+
+.blw-cnt-nav{
+  background-color: #204051;
+  width: 100%;
+  text-align: center;
+  margin-top: 70px;
+
+
+  -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+
+}
+.blw-cnt-nav ul{
+  display: inline-flex;
+  margin-bottom: -25px;
+  margin-left: -65px;
+}
+.blw-cnt-nav ul li{
+  list-style: none;
+margin: 0 50px;
+vertical-align: top;
+}
+.blw-cnt-nav ul li img{
+  height:250px;
+  width:250px;
+  margin-top: -30px;
+}
+.blw-cnt-nav ul li p{
+  text-align: center;
+  font-size: 54px;
+  font-weight: 400;
+  color: white;
+  line-height: 20px;
+}
+.form-cnt{
+  width: 74%;
+  text-align: center;
+  background-color: white;
+padding: 85px 0 20px;;
+position: relative;
+align-content: center;
+margin: auto;
+}
+.form-top{
+border-radius: 50%;
+text-align: center;
+background-color: #204051;
+color: white;
+height: 160px;
+width: 160px;
+font-size: 24px;
+font-weight: 400;
+margin: auto;
+position: relative;
+z-index: 10;
+margin-top: -5px;
+margin-bottom: -85px;
+-moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+-webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+
+}
+.form-top p{
+padding-top: 65px;
+}
+form .inpt-div{
+  padding-bottom: 10px;
+}
+form .inpt-div input,textarea{
+   border: 2px solid lightgrey;
+}
+form .inpt-div label{
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 5px 0 10px;
+  text-align: left;
+  padding-left: 9.6%;
+}
+form .inpt-div input{
+  width: 80%;
+  height: 35px;
+}
+
+form .inpt-div textarea{
+  width: 80%;
+}
+form .inpt-div .flname{
+    display: inline-block;
+    width:44.5%;
+}
+
+.flname label{
+  padding-left: 100px;
+}
+.flname input{
+  width:100%;
+}
+.form-btn{
+background-color: #204051;
+color: white;
+width: 25%;
+font-size: 18px;
+height: 35px;
+text-align: center;
+padding-top: 5px;
+border: none;
+border-radius: 5px;
+
+-moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+-webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+
+}
+.form-btn:hover{
+  background-color: orange;
+}
+/* ---------------------------------------------------------------------------------- */
+@media (max-width: 1024px) {
+  .blw-cnt-nav{
+    margin-top: 0;
+  }
+  .blw-cnt-nav ul{
+    margin-top: 25px;
+    margin-bottom: -25px;
+  }
+  .blw-cnt-nav ul li{
+margin: 0 5px;
+  }
+.blw-cnt-nav ul li img{
+    margin-top: -35px;
+  }
+  .blw-cnt-nav ul li p{
+    font-size: 42px;
+    margin-top: 50px;
+    line-height: 15px;
+  }
+  .second-img{
+    display: none;
+  }
+}
+
+/* ---------------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+.blw-cnt-nav ul{
+  display: block;
+    margin-left: -40px;
+    margin-top: 0;
+}
+.blw-cnt-nav ul li img{
+  margin-top: -40px;
+  margin-bottom: -30px;
+}
+.blw-cnt-nav ul li p{
+  font-size: 30px;
+  line-height: 10px;
+  margin-top: 2px;
+}
+.blw-cnt-nav ul li .cnt-p2{
+  padding-bottom: 30px;
+}
+.form-cnt{
+  width: 100%;
+padding: 85px 0 20px;
+}
+.form-top{
+color: white;
+height: 130px;
+width: 130px;
+font-size: 23px;
+margin-top: 0;
+margin-bottom: -90px;
+}
+.form-top p{
+padding-top: 45px;
+}
+form .inpt-div{
+  padding-bottom: 10px;
+}
+form .inpt-div label{
+  font-size: 14px;
+}
+.flname label{
+margin-top: 7px;
+}
+form .inpt-div .flname{
+    display: block;
+    width:100%;
+}
+
+.form-btn{
+width: 55%;
+font-size: 18px;
+}
+}
+
+/* ---------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------ */
+
+/* terms and condition page */
+
+.terms-cnt{
+  width: 74%;
+  background-color: white;
+  justify-content: space-between;
+  padding: 10px 40px;
+  margin:70px auto 10px;
+}
+.terms-cnt h1{
+font-size: 42px;
+font-weight: 400;
+text-align: center;
+}
+.terms-cnt h3{
+  font-size: 20px;
+}
+.terms-cnt p{
+  text-align: justify;
+}
+/* ---------------------------------------------------------------------------------- */
+
+@media (max-width: 1024px) {
+  .terms-cnt {
+    width: 100%;
+      padding: 10px 0;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+  .terms-cnt p{
+    padding: 0 20px;
+  }
+  .terms-cnt h3,h4{
+    padding: 0 20px;
+  }
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+@media (max-width: 640px) {
+.terms-cnt h1{
+  font-size: 30px;
+}
+.terms-cnt h3{
+  font-size: 15px;
+}
+}
+
+/* ---------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------ */
+
+/* privacy policy page */
